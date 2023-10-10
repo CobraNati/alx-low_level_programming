@@ -5,7 +5,7 @@
  * designed with for loop
  */
 
-void main(void)
+void print_alphabet(void)
 {
 	char ch;
 
@@ -13,4 +13,5 @@ void main(void)
 		_putchar(ch);
 
 	_putchar('\n');
+	return (0);
 }
