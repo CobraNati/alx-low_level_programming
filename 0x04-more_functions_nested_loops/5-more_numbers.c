@@ -8,13 +8,11 @@
 
 void more_numbers(void)
 {
-	int count;
-	int digit;
-	int lines;
+	int count, digit, lines;
 
 	for (lines = 0; count <= 9; count++)
 	{
-		for (count = 0; count <=14; count++)
+		for (count = 0; count <= 14; count++)
 		{
 			digit = count;
 			if (count > 9)
